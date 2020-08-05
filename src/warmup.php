@@ -9,6 +9,7 @@ if (isset($_POST['userWorkLoad'])) {
 }
 
 # CALCULATION #
+
 # Calculate 55% of the work load (1st warm up set)
 $FirstWarmupSet = ($workload * 0.55);
 
@@ -25,7 +26,6 @@ $FourthWarmupSet = ($workload * 0.9);
 # USER OUTPUT #
 
 # Warmup set 0 #
-
 echo "<p>Warm-Up set 1 : 15 reps with the empty bar.</p>";
 
 # First Warmup set #
