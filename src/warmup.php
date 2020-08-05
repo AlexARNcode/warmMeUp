@@ -11,16 +11,16 @@ if (isset($_POST['userWorkLoad'])) {
 # CALCULATION #
 
 # Calculate 55% of the work load (1st warm up set)
-$FirstWarmupSet = ($workload * 0.55);
+$FirstWarmupSet = round(($workload * 0.55));
 
 # Calculate 70% of the work load (2nd warm up set)
-$SecondWarmupSet = ($workload * 0.7);
+$SecondWarmupSet = round(($workload * 0.7));
 
 # Calculate 80% of the work load (3rd warm up set)
-$ThirdWarmupSet = ($workload * 0.8);
+$ThirdWarmupSet = round(($workload * 0.8));
 
 # Calculate 90% of the work load (4th warm up set)
-$FourthWarmupSet = ($workload * 0.9);
+$FourthWarmupSet = round(($workload * 0.9));
 
 
 # USER OUTPUT #
