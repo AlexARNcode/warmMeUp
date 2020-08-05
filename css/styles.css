@@ -1,0 +1,102 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    background-color: #f2f2f2;
+  }
+
+  header {
+    background-image: linear-gradient(#3c3c3c,#111);
+    color: white;
+    padding: 5px;
+    margin-bottom: 25px;
+  }
+
+  .title {
+    background-image: linear-gradient(#3c3c3c,#111);
+    color: white;
+    padding: 5px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-radius: 0px;
+  }
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+input[type=text]:hover {
+  background-color: #4CAF50;
+  
+  color: white;
+  transition: background-color 1s, color 1s;
+}
+
+input[type=text]:focus {
+  background-color: #4CAF50;
+  color: white;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 25px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: large;
+  text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+  background-color: #367D38;
+}
+
+
+div {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 5px;
+    font-weight: 500;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5px;
+  font-weight: 500;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+
+
+p {
+  background-image: linear-gradient(#eee,#ddd);
+  margin: 0px;
+  padding: 3px;
+  text-align: center;
+  font-size: large;
+}
+
+.output {
+  border: 2px solid grey;
+  padding: 1px;
+}

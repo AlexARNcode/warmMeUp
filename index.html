@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+     <!-- Add some custom JavaScript file -->
+     <script type="text/javascript" src="src/script.js"></script>
+
+     <!-- CSS and fonts -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet">
+  </head>
+
+  <body>
+      <header>
+        <h2>Warm-Up Calculator</h2>
+    </header>
+
+     <!-- Main form -->
+      <form id="warmupForm" class="form">
+        <label for="userWorkLoad">Workload in kgs : </label>
+        <input type="text" name="userWorkLoad" id="userWorkLoad" placeholder="Type your workload here (eg: 100)" onfocus="this.placeholder=''" onblur="this.placeholder='Type your workload here (eg: 100)'">
+        <input id="btn" type="submit" value="Calculate">
+      </form> 
+
+       <!-- Output -->
+      <div class="title">
+        <h3>Here is your warm-up plan:</h3>
+      </div>
+
+      <div id="output" class="output">
+        <!-- CSS  -->
+        <p>Warm-Up set 2 : 8 reps with 8 kgs.</p>
+        <p>Warm-Up set 2 : 8 reps with 8 kgs.</p>
+        <p>Warm-Up set 2 : 8 reps with 8 kgs.</p>
+        <p>Warm-Up set 2 : 8 reps with 8 kgs.</p>
+        <p>Warm-Up set 2 : 8 reps with 8 kgs.</p>
+       
+      </div> 
+  </body>
+</html>
